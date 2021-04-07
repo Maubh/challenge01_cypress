@@ -31,7 +31,7 @@ jobs:
       
       # Setup Node.JS
       - name: Setup Node.js environment
-        uses: actions/setup-node@v2.1.1
+        uses: actions/setup-node@v2.1.5
         with:
           node-version: ${{ matrix.node-version }}
 
