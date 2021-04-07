@@ -1,9 +1,6 @@
 #dependencies
 node_modules/
 
-#mocha reports
-mochaawesome-report
-
 #videos
 cypress/videos
 
