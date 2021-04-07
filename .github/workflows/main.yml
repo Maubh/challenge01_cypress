@@ -41,8 +41,8 @@ jobs:
         continue-on-error: true
         
     # Generate HTML report
-      - run: npm run cy:run:merge
-      - run: npm run cy:run:mocha
+      - run: npm run report:merge
+      - run: npm run report:mocha
 
     # Publicar relatório em HTML
       - name: Deploy to GitHub Pages
